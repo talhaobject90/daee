@@ -27,11 +27,7 @@ defaults: &defaults
   <<: *<%= ENV['RAILS_DB'] || "sqlite" %>
 
 development:
-  adapter: mysql2
-  database: "daee"
-  username: "root"
-  password: "password"
-  host:     localhost
+  <<: *defaults
 
 test: &test
   <<: *defaults

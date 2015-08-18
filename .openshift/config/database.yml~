@@ -30,7 +30,7 @@ development:
   adapter: mysql2
   database: "daee"
   username: "root"
-  password: "passowrd"
+  password: "password"
   host:     localhost
 
 test: &test
