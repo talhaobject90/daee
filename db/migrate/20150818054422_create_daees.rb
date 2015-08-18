@@ -4,6 +4,7 @@ class CreateDaees < ActiveRecord::Migration
       t.string :name
       t.string :place
       t.string :phone
+      t.string :months_4
 
       t.timestamps
     end

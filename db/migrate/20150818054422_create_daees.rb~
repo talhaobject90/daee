@@ -1,9 +1,10 @@
 class CreateDaees < ActiveRecord::Migration
   def change
     create_table :daees do |t|
-      t.name string
-      t.place string
-      t.phone string
+      t.string :name
+      t.string :place
+      t.string :phone
+      t.string :4months
 
       t.timestamps
     end

@@ -17,6 +17,7 @@ ActiveRecord::Schema.define(version: 20150818054422) do
     t.string   "name"
     t.string   "place"
     t.string   "phone"
+    t.string   "months_4"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
